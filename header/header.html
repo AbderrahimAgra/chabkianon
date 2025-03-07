@@ -3,20 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="header.css" />
-    <title>Document</title>
+    <title>Chebakia'non - Header</title>
   </head>
   <body>
+    <!-- Header Section -->
     <header>
-      <img src="../assets/image/logo.jpg" alt="logo" class="logo" />
-      <nav>
-        <ul>
-          <li>Chebakia</li>
-          <li>Coffret Ftour & Shour</li>
-          <li>Coffret spécial Ramadan</li>
-          <li>Ftour and Shour Petit modèle</li>
+      <nav class="navbar">
+        <div class="logo"><img src="/assets/image/logo.png" alt="logo" /></div>
+
+        <ul class="nav-links nav-lg">
+          <li><a href="#">Chebakia</a></li>
+          <li><a href="#">Ftour & Shour Box</a></li>
+          <li><a href="#">Ramadan Special Box</a></li>
+          <li><a href="#">Discovery Box Small Model</a></li>
         </ul>
+
+        <img class="hamburger" src="/assets/icons/hamburger.svg" alt="" />
       </nav>
+      <div class="hero">
+        <div class="overlay"></div>
+        <ul class="nav-links nav-sm">
+          <li><a href="#">Chebakia</a></li>
+          <li><a href="#">Ftour & Shour Box</a></li>
+          <li><a href="#">Ramadan Special Box</a></li>
+          <li><a href="#">Discovery Box Small Model</a></li>
+        </ul>
+      </div>
     </header>
   </body>
 </html>
